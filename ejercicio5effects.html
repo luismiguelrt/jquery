@@ -5,7 +5,21 @@
   <title>HTML</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <title>ejercicio2</title>
+  <title>ejercicio5effects</title>
+  <style>
+    #contenido {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+    #resultado{
+      left: 0;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      border: 3px solid #73AD21;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,19 +28,18 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous">
     </script>
-  <p>Esta página web es una página HTML válida.</p>
-
   
-<div class="form-control">
-  <form>
-    <input  type="text" id="nombre" name="nombre" placeholder="escribe tu nombre">
-  </form>
-  <div class="bg-dark text-white mt-5" id="contenido">
-    <p>estoy esperando...</p>
+  
+  <div class="container my-5" id="contenido">
+    
+    <button class="btn btn-primary my-3">Ocultar</button>
+    
+    <div class="bg-dark text-white mt-5" id="resultado">
+      <p></p>
+    </div>
   </div>
-</div>
   
-  <script src="ejercicio2.js">
+  <script src="ejercicio5effects.js">
 
   </script>
   <script src="bootstrap/js/bootstrap.min.js">
